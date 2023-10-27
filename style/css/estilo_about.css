@@ -1,0 +1,176 @@
+:root{ font-size: 22px;
+    font-family: 'Roboto', sans-serif;;
+}
+.container{
+    display: grid;
+    grid-template: 280px 1fr 180px / 1fr;
+    grid-template-areas: "header header"
+                         "contenido contenido"
+                         "footer footer";
+    grid-gap: 10px;
+    height: 100vh;
+}
+.header{
+    grid-area: header;
+    border:thin solid salmon;
+    text-align: center;
+}
+
+/*.left{
+    grid-area: left;
+    font-size: larger;
+    text-align: justify;
+    border:thin solid salmon;
+    }*/
+
+.contenido{
+    grid-area: contenido;
+    border:thin solid salmon;
+    text-align: center;
+
+}
+
+.footer{
+    grid-area: footer;
+    /*text-align: center;*/
+    border:thin solid salmon;
+    text-align: center;
+    }
+
+.item{
+    background-color: rgba(187, 187, 147, 0.438);
+    padding: 20px;
+    color: grey;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+
+header{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width:auto;
+}
+
+h1{
+    color: brown;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    margin: 0px;
+    }
+h2{
+    color: chocolate;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    transform:translate(5px, 25px);
+    padding: 0px;
+    margin: auto;
+}
+h4{ 
+    color: chocolate;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    transform:translate(5px, 25px);
+    padding: 0px;
+    margin: auto;
+}   
+    
+h5{
+        color: chocolate;
+        font-size: 1rem;
+        transition-property: font-size;
+        transition-duration: 4s;
+        transition-delay: 2s;
+        margin: 0px;
+        padding: 0px 0px 10px 0px;
+    }
+   
+p{
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+        text-align: justify;
+        transform:translate(0px, 25px);
+        flex-wrap: row wrap;
+        animation-duration: 3s;
+        animation-name: slidein;
+
+        }
+    
+        @keyframes slidein {
+        from {
+        margin-left: 100%;
+        width: 300%;
+       }
+    
+       to {
+        margin-left: 0%;
+        width: 100%;
+       }
+    
+        }
+
+index.html
+
+#uno-id{
+    /*text-align: center;*/
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 2rem;
+    margin: 0px;
+    }
+
+#referencia {
+        border: thin dotted blue;
+        background-color: gray;
+        font-size: 1.5rem;
+        border-radius: 20% 20% 20% 20%;
+    } 
+
+
+/*reserva.html*/
+
+#footer-id{
+   
+    padding: 20px;
+}
+
+.flaticon{
+    width: 20px;
+    height: 20px;
+}
+
+/*Diseño responsive*/
+/*Diseño responsive phones*/
+@media(min-width: 576px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+} 
+/*Diseño responsive tablets*/
+@media(min-width: 768px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
+/*Diseño responsive desktop*/
+@media(min-width: 992px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
+/*Diseño responsive large desktop*/
+@media(min-width: 1200px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="icon" href="style\img\icons8-google-web-search-16.png">
+    <link rel="stylesheet" href="style\css\estilo_reserva.css">
+</head>
+<body>
+    <section class="container">
+        <div class="item header">
+            <header>
+                <h1 id="uno-id">Esplendor Estudio</h1>
+                <img src="./style/img/carrete.png" alt="carrete"  width="200">
+                <h5>No hacemos videos creamos recuerdos inborrables</h5>
+                <nav>
+                    <a href="index.html" id="referencia">Inicio</a>
+                    <a href="about.html"id="referencia">Nosotros</a>
+                    <a href="trabajo.html" id="referencia">Nuestro Trabajo</a>
+                   
+                </nav>
+             </header>
+        </div> 
+        <!--aqui termina header-->
+        <div class="item contenido">
+            <div>
+            <h2>Formulario de reserva</h2>
+            <p>Si desea contratar nuestros servicios, lo invitamos a completar el formulario para que un asesor se ponga en contacto con Ud.</p>
+            <form id="formRegister" method="post" action="#">
+             <h3>Datos Personales</h3> <br>
+            <fieldset class="reserva-copy">
+                <div class="form-control"> 
+                    <label for="firstname">Nombre: </label>
+                    <input type="text" size="30" id="firstname" name="firstname" 
+                    placeholder="Ingrese su nombre aqui...." required> 
+                </div>
+                <div class="error" id="error-firstname"></div>
+                <div class="form-control">
+                    <label for="lastname">Apellido: </label>
+                    <input type="text" size="30" id="lastname" name="lastname"
+                     placeholder="Ingrese su apellido aqui...." required> 
+                </div>
+                <div class="error" id="error-lastname"></div>
+                <div class="form-control">
+                    <label for="contact">Numero de contacto</label>
+                    <input type="text" size="40" id="contact" name="contact"
+                    placeholder="Ingrese su numero aqui sin 0 ni 15...." required>
+                </div>
+                <div class="error" id="error-contact"></div>
+                <div class="form-control">
+                    <label for="email">email: </label>
+                    <input type="email" id="email" name="email"
+                    placeholder="Ingrese su email..." required>
+                </div>
+                <div class="error" id="error-email"></div> 
+                <button type="submit">Enviar info</button>
+            </fieldset> 
+            <h3>Evento</h3> <br>
+            <fieldset class="reserva-copy">
+                <label for="tevento">Tipo de Evento</label>
+                <select name="tevento" id="evento">
+                    <option value="cas">Casamiento</option>
+                    <option value="fiesta">Fiesta de 15 años</option>
+                    <option value="com">Comunión</option>
+                    <option value="baby">Baby shower</option>
+                    <option value="corpo">Corporativas</option>
+                </select> 
+                <label for="evento">Fecha del evento </label> <input type="date" name="evento">
+                <label for="horario">Seleccione horario</label>
+                <select name="horario" id="evento">
+                    <option value="diurno">Diurno</option>
+                    <option value="mediodia">Mediodia</option>
+                    <option value="vespertino">Vespertino</option>
+                    <option value="nocturno">Nocturno</option>
+                    <option value="todo">All day</option>
+                </select> 
+             <h3>Selecciona tus opciones</h3> <br>
+                <input type="checkbox" name="option" value="1" class="reserva-copy">Foto Mural
+                <input type="checkbox" name="option" value="2" class="reserva-copy">Foto Libro
+                <input type="checkbox" name="option" value="3" class="reserva-copy">Video con drone <br>
+            </fieldset>  
+        </form>
+        </div> <br><br>
+
+        <div class="item footer">
+        <h5>Visite nuestra redes sociales</h5>
+            <nav>
+                <a href="https://www.instagram.com/" target="_blank"><img src="style\img\icono_instagram.png" alt="Icono Instagram"
+                    width="25" height="25"></a>
+                <a href="https://facebook.com" target="_blank"><img src="style\img\icono_facebook.png" alt="Icono Facebook"
+                        width="25" height="25"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="style\img\icono_twitter.png" alt="Icono Twitter" width="25"
+                        height="25"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="style\img\icono_whatsapp.png" alt="Icono Whatsapp"
+                        width="25" height="25"></a>
+                <h5>Producciones Esplendor Estudio se reserva todos los derechos de autor✔</h5>
+            </nav>
+            <nav>
+                <a href="general.html" id="referencia" >Aviso Legal</a>
+                <a href="general.html" id="referencia">Politica de Privacidad</a>
+                <a href="general.html" id="referencia">Mapa del sitio</a>
+                <!--Agregar iconos de instragrama-->
+            </nav>
+       </div>
+    </section>
+    <script src="./style/js/register.js"></script>
+</body>

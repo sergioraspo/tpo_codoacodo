@@ -1,0 +1,170 @@
+:root{ font-size: 22px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    }
+
+h4{
+    border: thin ;
+    border: 2px solid blue;
+    background-color: rgb(216, 243, 244);
+    transform:translate(25px, 25px);
+   
+    transform: translate(0px, 25px);
+}
+
+h5{
+    color: chocolate;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    
+    text-align: justify;
+    transform:translate(0px, 25px);
+    flex-wrap: row wrap;
+       /* justify-content: start;*/
+    animation-duration: 3s;
+    animation-name: slidein;
+    }
+
+    @keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%;
+   }
+
+   to {
+    margin-left: 0%;
+    width: 100%;
+   }
+
+    }
+
+a{
+    border: 2px solid blue;
+    background-color: cadetblue;
+    }
+header{
+    font-size: 1rem;
+    background-color:rgb(242, 218, 186) ;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width:auto;
+}
+footer{
+    font-size: 0.8rem;
+    background-color:burlywood ;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+   
+}
+
+/*index.html*/
+/* */
+#uno-id{
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    font-size: 2rem;
+    }
+
+#section-ref {
+        flex-direction: row;
+        flex-wrap: wrap;
+    } /*ln 27*/
+
+#section-refdos{
+        text-align: center;
+        font-size: 0.7rem;
+        padding-top: 15px;
+    } /*ln 39 */
+
+/*about.html */
+/* #uno-id*/
+
+
+#about-ref{
+    flex-flow: row wrap;
+
+}
+
+#referencia {
+    border: 2px solid blue ;
+    font-size: 0.5rem;
+    background-color: cadetblue;
+    font-size: 1rem;
+
+}
+
+/*trabajo.html */
+
+.parrafo-ref{
+    width: 1200px;
+    translate: 25px;
+    }
+
+.flaticon{
+        width: 20px;
+        height: 20px;
+    }
+
+#trabajo, h3 {
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;;
+        border-color: blue;
+        border-style: solid;
+        border-width: thin;
+        background-color: antiquewhite;
+        transform:translate(0px, 25px);
+        width:auto;
+        flex-flow: row wrap;
+        justify-content: center;
+}
+ 
+
+/*reserva.html*/
+
+#footer-id{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/*Diseño responsive*/
+/*Diseño responsive phones*/
+@media(min-width: 576px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+} 
+/*Diseño responsive tablets*/
+@media(min-width: 768px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
+/*Diseño responsive desktop*/
+@media(min-width: 992px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
+/*Diseño responsive large desktop*/
+@media(min-width: 1200px){
+    .header{width: 100%;}
+    .left{width: 100%;}
+    .contenido{width: 100%;}
+    .footer{width: 100%;}
+}
