@@ -30,6 +30,9 @@
     text-align: center;
 
 }
+.form-control{
+    font-size: 1rem;
+}
 
 .footer{
     grid-area: footer;
@@ -73,7 +76,7 @@ h2{
 h3{
         text-align: left;
         color: chocolate;
-        font-size: 1rem;
+        font-size: 2rem;
         font-family: 'Roboto', sans-serif;
         transform:translate(5px, 25px);
         padding: 0px;
@@ -108,7 +111,8 @@ h6{
 p{
         font-size: 1rem;
         font-family: 'Roboto', sans-serif;
-        padding: 0px 0px 0px 0px;
+        padding: 0px;
+        margin: 0px;
         transform:translate(0px, 25px);
         animation-duration: 3s;
         animation-name: slidein;
