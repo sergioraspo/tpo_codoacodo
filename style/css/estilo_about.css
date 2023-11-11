@@ -7,7 +7,7 @@
     grid-template-areas: "header header"
                          "contenido contenido"
                          "footer footer";
-    grid-gap: 10px;
+    grid-gap: 5px;
     height: 100vh;
 }
 
