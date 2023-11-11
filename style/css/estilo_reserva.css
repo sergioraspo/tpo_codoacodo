@@ -3,7 +3,7 @@
 }
 .container{
     display: grid;
-    grid-template: 280px 1fr  180px / 500px ;
+    grid-template: 280px 1fr  250px/100%;
     grid-template-areas: "header header"
                          "contenido contenido"
                          "contenido contenido"
@@ -97,7 +97,13 @@ h5{
         transition-delay: 2s;
         margin: 0px;
         padding: 0px 0px 10px 0px;
-    }
+    } 
+
+h6{
+        margin: 0px;
+        font-size: 1rem;
+    }    
+           
    
 p{
         font-size: 1rem;
@@ -135,10 +141,18 @@ index.html
     }
 
 #referencia {
-        border: thin dotted blue;
+       /* border: thin dotted blue;
         background-color: gray;
         font-size: 1.5rem;
-        border-radius: 20% 20% 20% 20%;
+        border-radius: 20% 20% 20% 20%;*/
+    background-color: grey;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Playpen Sans', cursive;
+    margin-top: 10px; 
     } 
 
 

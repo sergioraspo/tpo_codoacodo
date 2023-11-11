@@ -3,11 +3,11 @@
 }
 .container{
     display: grid;
-    grid-template:280px 1fr 250px /1600px;
+    grid-template:280px 1fr 250px/100%;
     grid-template-areas: "header header"
                          "contenido contenido"
                          "footer footer";
-    grid-gap: 10px;
+    grid-gap: 5px;
     height: 100vh;
 }
 
@@ -50,6 +50,7 @@ header{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     width:auto;
+    padding: 0px;
 }
 
 h1{
@@ -86,6 +87,11 @@ h5{
         margin: 0px;
         padding: 0px 0px 10px 0px;
     }
+
+h6{
+    margin: 0px;
+    font-size: 1rem;
+}    
    
 p{
         font-size: 1.rem;
@@ -125,10 +131,22 @@ p{
     }
 
 #referencia {
-        border: thin dotted blue;
-        background-color: gray;
-        font-size: 1rem;
-        border-radius: 20% 20% 20% 20%;
+       /* border-color: blue;
+        background-color: cornflowerblue;
+        border-color: black;
+        border-style: solid;
+        border-width: thin;
+        font-size: 0.8rem;
+        border-radius: 0% 0% 0% 0%;*/
+    
+    background-color: grey;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Playpen Sans', cursive;
+    margin-top: 10px;    
     } 
 
     .index-ref{
@@ -138,7 +156,7 @@ p{
 /*reserva.html*/
 
 #footer-id{
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
