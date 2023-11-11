@@ -175,8 +175,13 @@ reserva.html
 .reserva-copy{
     text-align: left;
     border: thin solid grey;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 24px 0px;
+   /* transform:translate(10px, 10px);*/
 
+}
+
+.form-control{
+    transform:translate(10px, 10px);
 }
 
 .item-contenido{
