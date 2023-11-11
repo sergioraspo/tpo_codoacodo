@@ -28,14 +28,14 @@
             <h2>Formulario de reserva</h2>
             <p>Si desea contratar nuestros servicios, lo invitamos a completar el formulario para que un asesor se ponga en contacto con Ud.</p>
             <form id="formRegister" method="post" action="#">
-             <h3>Datos Personales</h3> <br>
             <fieldset class="reserva-copy">
+            <h3>Datos Personales</h3> <br>
                 <div class="form-control"> 
                     <label for="firstname">Nombre: </label>
                     <input type="text" size="30" id="firstname" name="firstname" 
                     placeholder="Ingrese su nombre aqui...." required> 
                 </div>
-                <div class="error" id="error-firstname"></div>
+            <!--   <div class="error" id="error-firstname"></div>--> 
                 <div class="form-control">
                     <label for="lastname">Apellido: </label>
                     <input type="text" size="30" id="lastname" name="lastname"
@@ -54,10 +54,8 @@
                     placeholder="Ingrese su email..." required>
                 </div>
                 <div class="error" id="error-email"></div> 
-                <button type="submit">Enviar info</button>
-            </fieldset> 
             <h3>Evento</h3> <br>
-            <fieldset class="reserva-copy">
+
                 <label for="tevento">Tipo de Evento</label>
                 <select name="tevento" id="evento">
                     <option value="cas">Casamiento</option>
@@ -76,15 +74,17 @@
                     <option value="todo">All day</option>
                 </select> 
              <h3>Selecciona tus opciones</h3> <br>
-                <input type="checkbox" name="option" value="1" class="reserva-copy">Foto Mural
-                <input type="checkbox" name="option" value="2" class="reserva-copy">Foto Libro
-                <input type="checkbox" name="option" value="3" class="reserva-copy">Video con drone <br>
-                <button type="submit">Enviar info</button>
-            </fieldset>  
+             <ol>
+                <il><input type="checkbox" name="option" value="1" class="reserva-copy">Foto Mural</il>
+                <il><input type="checkbox" name="option" value="2" class="reserva-copy">Foto Libro</il>
+                <il><input type="checkbox" name="option" value="3" class="reserva-copy">Video con drone</il>
+             </ol>
+               <button type="submit">Enviar info</button>
+            </fieldset> <br><br>
 
         </form>
-        </div> <br><br>
-
+        </div> 
+       
         <div class="item footer">
         <h5>Visite nuestra redes sociales</h5>
             <nav>
@@ -96,7 +96,8 @@
                         height="25"></a>
                 <a href="https://web.whatsapp.com/" target="_blank"><img src="style\img\icono_whatsapp.png" alt="Icono Whatsapp"
                         width="25" height="25"></a>
-                <h5>Producciones Esplendor Estudio se reserva todos los derechos de autor✔</h5>
+                <h5>Viva su evento una vez, recuerdelo el resto de su vida</h5>
+                <h6>Su evento en manos de profesionales</h6><br>
             </nav>
             <nav>
                 <a href="general.html" id="referencia" >Aviso Legal</a>
