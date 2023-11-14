@@ -175,7 +175,7 @@ reserva.html
 .reserva-copy{
     text-align: left;
     border: thin solid grey;
-    padding: 10px 0px 24px 0px;
+    padding: 10px 0px 10px 0px;
    /* transform:translate(10px, 10px);*/
 
 }
@@ -183,11 +183,17 @@ reserva.html
 .form-control{
     transform:translate(10px, 10px);
     text-align: left;
+    padding-bottom: 3px;
 }
 
 .item-contenido{
    padding: 0px;
 } 
+
+.button{
+    padding-bottom: 8px;
+    padding-top: 3px;
+}
 
 /*Diseño responsive*/
 /*Diseño responsive phones*/
