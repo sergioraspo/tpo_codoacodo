@@ -8,7 +8,7 @@
                          "contenido contenido"
                          "footer footer";
     grid-gap: 5px;
-    height: 100vh;
+    height: auto;
 }
 
 .header{
