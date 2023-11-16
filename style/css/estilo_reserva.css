@@ -9,7 +9,7 @@
                          "contenido contenido"
                          "footer footer";
     grid-gap: 5px;
-    height: 92vh;
+    height: 115vh;
 }
 .header{
     grid-area: header;
