@@ -9,7 +9,7 @@
                          "contenido contenido"
                          "footer footer";
     grid-gap: 5px;
-    height: 93vh;
+    height: 92vh;
 }
 .header{
     grid-area: header;
@@ -47,7 +47,6 @@
     color: grey;
     border-radius: 10px;
 }
-
 
 header{
     font-size: 1rem;
@@ -187,13 +186,14 @@ reserva.html
 }
 
 .item-contenido{
-   padding: 0px;
+   padding: 20px;
 } 
 
 .button{
-    padding-bottom: 32px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 0px;
 }
+
 
 /*Diseño responsive*/
 /*Diseño responsive phones*/
