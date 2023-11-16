@@ -9,7 +9,7 @@
                          "contenido contenido"
                          "footer footer";
     grid-gap: 5px;
-    height: 115vh;
+    height: auto;
 }
 .header{
     grid-area: header;
@@ -75,7 +75,7 @@ h2{
 h3{
         text-align: left;
         color: chocolate;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: 'Roboto', sans-serif;
         transform:translate(5px, 25px);
         padding: 0px;
@@ -182,11 +182,11 @@ reserva.html
 .form-control{
     transform:translate(10px, 10px);
     text-align: left;
-    padding-bottom: 3px;
+    padding-bottom: 0px;
 }
 
 .item-contenido{
-   padding: 20px;
+   padding: 0px;
 } 
 
 .button{
